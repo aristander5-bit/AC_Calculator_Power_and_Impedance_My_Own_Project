@@ -5,7 +5,7 @@ def ac_calculator_power_impedance():
     try:
         u = float(input("Please enter Voltage (U) in Volts [V]:"))
         i = float(input("Please enter Current (I) in Amps [A]:"))
-        cos_phi = float(input("Please enter Power Factor (cos phi ) between [0, 1]:"))
+        cos_phi = float(input("Please enter Power Factor (cos phi) between [0, 1]:"))
         if not (0 <= cos_phi <= 1):
             print("Error: Power factor must be between 0 and 1!!!")
             return
