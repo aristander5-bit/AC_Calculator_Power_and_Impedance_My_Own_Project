@@ -1,6 +1,6 @@
 # AC Calculator Power and Impedance (My Own Project)
 
-I made a calculator to calculate AC power and resistance. I used teh following formulas to calculate:
+I made a calculator to calculate AC power and resistance. I used the following formulas to calculate:
 
 Apparent Power: S = U * I
 Active (Real) Power: P = S * cos_phi
