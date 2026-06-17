@@ -9,8 +9,8 @@ def ac_calculator_power_impedance():
         if not (0 <= cos_phi <= 1):
             print("Error: Power factor must be between 0 and 1!!!")
             return
-        if i == 0:
-            print("Error: Current must be greater than 0!!!")
+        if u == 0 or i == 0:
+            print("Error: Either Voltage or Current cannot be 0!!!")
             return
         # power_calculations
         sin_phi = sqrt(1 - cos_phi**2)
