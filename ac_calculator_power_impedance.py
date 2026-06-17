@@ -15,7 +15,7 @@ def ac_calculator_power_impedance():
         # power_calculations
         sin_phi = sqrt(1 - cos_phi**2)
         s = u * i
-        p = u * i * cos_phi
+        p = s * cos_phi
         q = s * sin_phi
         # impedance_calculations
         z = u / i
